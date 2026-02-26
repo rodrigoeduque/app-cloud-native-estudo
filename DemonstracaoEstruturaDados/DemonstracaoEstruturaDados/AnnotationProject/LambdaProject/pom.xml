@@ -5,28 +5,16 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>br.com.rodrigoeduque</groupId>
-        <artifactId>DemonstracaoEstruturaDados</artifactId>
+        <artifactId>AnnotationProject</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>AnnotationProject</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>LambdaProject</module>
-    </modules>
+    <artifactId>LambdaProject</artifactId>
 
     <properties>
         <maven.compiler.source>23</maven.compiler.source>
         <maven.compiler.target>23</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-    <dependencies>
-        <dependency>
-            <groupId>br.com.rodrigoeduque</groupId>
-            <artifactId>OptionalProject</artifactId>
-            <version>1.0-SNAPSHOT</version>
-            <scope>compile</scope>
-        </dependency>
-    </dependencies>
 
 </project>
